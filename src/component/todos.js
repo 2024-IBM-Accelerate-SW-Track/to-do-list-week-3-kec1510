@@ -18,7 +18,7 @@ const Todos = ({ todos, deleteTodo }) => {
       const today_date = new Date().setHours(0, 0, 0, 0);
 
       if (due_date < today_date) { 
-        color = "red";
+        color = "#ff6b6b";
       };
 
       return (
